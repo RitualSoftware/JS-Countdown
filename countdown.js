@@ -3,10 +3,12 @@
   var elapsedTime;
   var secconds = 1800;
   var counter = setInterval(function () {
+    "use strict";
             counterBegin();
       }, 1000);
 
 function counterBegin() {
+    "use strict";
     var minutes = Math.floor(secconds / 60),
     secondsLeft  = secconds % 60;
       if (secondsLeft < 10) {
